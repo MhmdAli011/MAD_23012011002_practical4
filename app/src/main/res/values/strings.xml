@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MAD_23012011002_practical4</string>
+    <string name="btn">btn</string>
+    <string name="create_alarm">Create Alarm</string>
+    <string name="pm_aug_14_2022">PM Aug,14 2022</string>
+    <string name="check_current_time_by_looking_below_real_digital_clock">Check current time by looking below real digital clock</string>
+    <string name="by_pressing_buttons_alarm_can_be_created_and_cancelled">By pressing buttons, Alarm can be created and cancelled</string>
+    <string name="create_alarm_time">Create Alarm Time</string>
+    <string name="alarm_img">alarm_img</string>
+</resources>
