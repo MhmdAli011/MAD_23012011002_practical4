@@ -7,4 +7,5 @@
     <string name="by_pressing_buttons_alarm_can_be_created_and_cancelled">By pressing buttons, Alarm can be created and cancelled</string>
     <string name="create_alarm_time">Create Alarm Time</string>
     <string name="alarm_img">alarm_img</string>
+    <string name="cancel_alarm">Cancel Alarm</string>
 </resources>

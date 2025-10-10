@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
 
     <application
@@ -25,26 +26,19 @@
 
 
 
-        <!-- Foreground Service -->
         <service
             android:name=".AlarmServices"
-            android:exported="true"
-            android:foregroundServiceType="mediaPlayback"
-            tools:ignore="ExportedService" />
-
-
-
-
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="specialUse" />  <!-- Add this line -->
 
         <receiver
             android:name=".AlarmBroadcastReceiver"
             android:enabled="true"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
+            android:exported="false" />
+
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

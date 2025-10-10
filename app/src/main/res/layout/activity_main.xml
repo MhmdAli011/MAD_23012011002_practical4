@@ -172,7 +172,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="@string/create_alarm"
+                        android:text="@string/cancel_alarm"
                         app:icon="@drawable/baseline_alarm_off_24"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/datetime1" />
